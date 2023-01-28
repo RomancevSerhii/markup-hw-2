@@ -1,0 +1,208 @@
+:root {
+    --primary-tex-color: #2e2f42;
+    --title-tex-color: #434455;
+    --accent-color: #4d5ae5;
+    --color-fone: #ffffff;
+    --color-hover: #404bbf;
+  }
+  body {
+    font-family: "Roboto", sans-serif;
+    color: var(--primary-tex-color);
+    margin: 0;
+  }
+  a {
+    text-decoration: none;
+  }
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* h Приховані заголовки */
+  .visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+  }
+  
+  /* Header */
+  .logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: inherit;
+    text-decoration: none;
+  }
+  .logo-item {
+    letter-spacing: 0.03em;
+    color: var(--accent-color);
+  }
+  .header-item {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: inherit;
+  }
+  .header-item:hover,
+  .header-item:focus,
+  .address-info:hover,
+  .address-info:focus {
+    color: var(--color-hover);
+  }
+  .address-info,
+  .phone {
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--title-tex-color);
+  }
+  /* Section main */
+  
+  .section-main {
+    background-color: #2e2f42;
+  }
+  .main-tex {
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    color: var(--color-fone);
+  }
+  .button {
+    font-family: inherit;
+    color: var(--color-fone);
+    background-color: var(--accent-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    padding: 16px 32px;
+    border-style: none;
+    cursor: pointer;
+  }
+  .button:hover,
+  .batton:focus {
+    background-color: var(--color-hover);
+  }
+  /* --------Section-info----------- */
+  
+  .info-text {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: inherit;
+  }
+  .info-title {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--title-tex-color);
+  }
+  
+  /* --------What are we doing--------- */
+  
+  .work-text {
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    color: inherit;
+  }
+  
+  /* -----team-section------ */
+  .team-section {
+    background-color: #f4f4fd;
+  }
+  .team-text {
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    color: inherit;
+  }
+  .team-name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2px;
+    letter-spacing: 0.02em;
+    color: inherit;
+  }
+  .team-specialization {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--title-tex-color);
+  }
+  
+  /* ------footer------ */
+  .footer {
+    background-color: #2e2f42;
+  }
+  .footer-tex {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #e7e9fc;
+  }
+  .footer-logo {
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #f4f4fd;
+  }
+  
+  /* ----portfolio----- */
+  
+  .porfolio-button {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5x;
+    letter-spacing: 0.04em;
+    color: var(--accent-color);
+    padding: 12px 24px;
+    background: #f4f4fd;
+    border: 1px solid #e7e9fc;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .porfolio-button:hover,
+  .porfolio-button:focus {
+    color: #ffffff;
+    background: #404bbf;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+      0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+  }
+  
+  /* ------portfolio-info------ */
+  
+  .portfolio-info-tex {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: inherit;
+  }
+  .portfolio-info-desc {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--title-tex-color);
+  }
