@@ -437,6 +437,7 @@ margin-left: 156px;
   flex-basis: calc((97% - 48px) / 3);
   background: #ffffff;
   margin-left: 24px;
+  
  }
   .portfolio-info-tex {
     font-weight: 500;
@@ -444,10 +445,21 @@ margin-left: 156px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: inherit;
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px 16px;
+gap: 8px;
   }
   .portfolio-info-desc {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--title-tex-color);
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px 16px;
+    gap: 8px;
   }
