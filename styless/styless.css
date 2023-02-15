@@ -101,7 +101,7 @@ img {
 }
 
 .nav-link.curent {
-  color: var(--pressed-state-color);
+
 }
 
 .nav-link:hover,
